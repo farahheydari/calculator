@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="stylesheet/master.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="display" id="result"></div>
+        <div class="parentButton" id="buttonHolder">
+                <input type="button" class="btn diffrent" value="AC" onclick="resetAll()">
+                <input type="button" class="btn diffrent" value="C" onclick="resetC()">
+                <input type="button" class="btn mark" value="%" onclick="getValue(this.value)">
+                <input type="button" class="btn mark" value="/" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="7" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="8" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="9" onclick="getValue(this.value)">
+                <input type="button" class="btn mark" value="*" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="4" onclick="getValue(this.value)">
+                <input type="button" class="btn" onclick="getValue(this.value)" value="5">
+                <input type="button" class="btn" value="6" onclick="getValue(this.value)">
+                <input type="button" class="btn mark" value="-" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="1" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="2" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="3" onclick="getValue(this.value)">
+                <input type="button" class="btn mark" value="+" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="0" onclick="getValue(this.value)">
+                <input type="button" class="btn" value="00" onclick="getValue(this.value)">
+                <input type="button" class="btn mark" value="." onclick="getValue(this.value)">
+                <input type="button" class="btn mark" value="=" onclick="finall()">
+        </div>
+    </div>
+    <script src="stylesheet/js/app.js"></script>
+</body>
+
+</html>
