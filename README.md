@@ -3,9 +3,9 @@
 
 **calculator with events keybord**
 
-![viewfinal](https://github.com/user-attachments/assets/9bb08761-6a63-4db1-bdd6-630c6fc82241")
+![viewfinal](https://github.com/user-attachments/assets/716df7dc-ab61-423d-ae7f-24fd818308ab)
 
-![view final](https://github.com/user-attachments/assets/8f09371f-18bd-4763-a5ea-d31c8d7126a1")
+![view final](https://github.com/user-attachments/assets/72d213e0-bddf-4f50-b128-64f965655612" )
 
 - [Demo Project](https://farahheydari.github.io/calculator/)
 
